@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Stylesheets go here. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="global.css" />
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="headClass">Do All The Things!</h1>
+            </div>
+        </div>
+
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-sm-1">
+                <div>
+
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="panel panel-default">
+                    <div class="panel-heading panelHead">
+                        All the Things to Do!
+                    </div>
+                    <div class="form-group">
+                      <label for="usr">To Do and Junk</label>
+                      <input id="textBox" type="text" class="form-control">
+                    </div>
+                    <div class="text-center">
+                        <button type="button" id="addBtn">Add</button>
+                    </div>
+                    <div id="todos">
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="">I'm a placeholder!</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="panel panel-default panelHead">
+                    <div class="panel-heading">
+                        All the Things that Done!
+                    </div>
+                    <div class="checkbox panelItems">
+                        <label><input type="checkbox" value="">Test 1</label>
+                    </div>
+                    <div class="checkbox panelItems">
+                        <label><input type="checkbox" value="">Test 2</label>
+                    </div>
+                    <div class="checkbox panelItems">
+                        <label><input type="checkbox" value="">Test 3</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1">
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+  <!-- Scripts go here. -->
+  <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
+  <script type="text/javascript" src="js/global.bundle.js"></script>
+</body>
+</html>
