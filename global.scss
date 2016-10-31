@@ -5,3 +5,32 @@
 img {
     width: 100%;
 }
+
+.list-group-item {
+ span {
+   display: inline-block;
+   margin-left: 20px;
+ }
+}
+
+.text-done {
+ text-decoration: line-through;
+ color: #721817;
+}
+
+.headerPic {
+    background-image: url(notes.jpeg);
+    height: 420px;
+    background-size: cover;
+}
+
+.headerText{
+    color: white;
+    padding-top: 150px;
+    font-size: 72px;
+    font-family: 'Coiny', cursive;
+}
+
+.button {
+    color: blue;
+}
